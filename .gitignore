@@ -1,0 +1,14 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp.txt
+
+# Keys / Credentials
+~/.ssh/*

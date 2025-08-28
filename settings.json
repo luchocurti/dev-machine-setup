@@ -1,0 +1,105 @@
+{
+    // Sets untrusted files to be automatically opened in the workspace.
+    "security.workspace.trust.untrustedFiles": "open",
+    
+    // Configuration for plaintext files.
+    "[plaintext]": {
+        // Disables quick suggestions for non-code elements in plaintext files.
+        "editor.quickSuggestions": {
+            // Disables suggestions for text that is not code.
+            "other": false,
+            // Disables suggestions for comments.
+            "comments": false,
+            // Disables suggestions for strings.
+            "strings": false
+        },
+        // Turns off word-based suggestions in plaintext files.
+        "editor.wordBasedSuggestions": "off",
+        // Disables automatic formatting when saving plaintext files.
+        "editor.formatOnSave": false
+    },
+
+    // Disables the startup editor when VS Code is launched.
+    "workbench.startupEditor": "none",
+    
+    // Prevents release notes from being shown after updates.
+    "update.showReleaseNotes": false,
+    
+    // Disables telemetry data collection.
+    "telemetry.telemetryLevel": "off",
+    
+    // Sets the default IntelliSense mode for C/C++ to Linux (GCC on 64-bit).
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    
+    // Sets the code formatting style for C/C++ to LLVM style.
+    "C_Cpp.clang_format_style": "LLVM",
+
+    // Automatically add parentheses after function autocompletion for C/C++.
+    "C_Cpp.autocompleteAddParentheses": true,
+
+    // Configuration for C files.
+    "[c]": {
+        // Enables automatic formatting on save for C files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for C++ files.
+    "[cpp]": {
+        // Enables automatic formatting on save for C++ files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for Python files.
+    "[python]": {
+        // Enables automatic formatting on save for Python files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for JSON files.
+    "[json]": {
+        // Enables automatic formatting on save for JSON files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for YAML files.
+    "[yaml]": {
+        // Enables automatic formatting on save for YAML files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for XML files.
+    "[xml]": {
+        // Enables automatic formatting on save for XML files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for Markdown files.
+    "[markdown]": {
+        // Enables automatic formatting on save for Markdown files.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for Makefile files.
+    "[makefile]": {
+        // Enables automatic formatting on save for Makefiles.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for shell script files.
+    "[shellscript]": {
+        // Enables automatic formatting on save for shell scripts.
+        "editor.formatOnSave": true
+    },
+    
+    // Configuration for assembly files.
+    "[asm]": {
+        // Enables automatic formatting on save for assembly files.
+        "editor.formatOnSave": true
+    },
+    
+    // Renders whitespace characters (like spaces) only at boundary positions.
+    "editor.renderWhitespace": "boundary",
+    
+    // Disables highlighting of invisible Unicode characters.
+    "editor.unicodeHighlight.invisibleCharacters": false
+}
