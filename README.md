@@ -94,6 +94,10 @@ source ~/.bashrc
 4. Appearance / Colors → choose a built-in scheme such as **Gray on black** or a dark profile.
 5. Optionally: uncheck “Use colors from system theme” and set custom text/background colors.
 
+### Terminal preview
+
+![Custom terminal preview](images/custom-terminal-preview.png)
+
 ---
 
 ## Git settings
